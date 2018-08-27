@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: dbItemPrice-Services
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: james
+Implementation-Vendor-Id: com.james.price
+Build-Jdk: 1.8.0_172
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/dbItemPrice-Services
+Created-By: Maven Integration for Eclipse
+

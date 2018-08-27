@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Eureka-services
+server:
+  port: 8761
+  
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+zuul:
+  prefix: /api
+  routes:
+    dbItemPrice-Services:
+      path: /dbItemPrice-Services/**
+      url: http://localhost:8302
+    ItemPrice-Services:
+      path: /ItemPrice-Services/**
+      url: http://localhost:8301

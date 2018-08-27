@@ -1,0 +1,9 @@
+2018-08-27 14:49:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'18.19' (ITEM: ITEM_PRICE BIGINT NOT NULL)"; SQL statement:
+insert into item (item_name, item_price, itemid) values (?, ?, ?) -- (?1, ?2, ?3) [22018-197]
+2018-08-27 14:49:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'29.99' (ITEM: ITEM_PRICE BIGINT NOT NULL)"; SQL statement:
+insert into item (item_name, item_price, itemid) values (?, ?, ?) -- (?1, ?2, ?3) [22018-197]
+2018-08-27 14:49:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'7.49' (ITEM: ITEM_PRICE BIGINT NOT NULL)"; SQL statement:
+insert into item (item_name, item_price, itemid) values (?, ?, ?) -- (?1, ?2, ?3) [22018-197]
